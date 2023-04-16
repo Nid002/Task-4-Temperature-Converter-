@@ -1,0 +1,63 @@
+* {
+		margin: 0;
+		padding: 0;
+		font-family: 'Lobster', cursive;
+	}
+    body{
+        background-image: url("leaf.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+	h1{
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        
+    }
+	.container {
+		width: 100%;
+		height: 100vh;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container h1 {
+		color: rgb(4, 60, 86);
+		font-weight: 700;
+		font-size: 25px;
+		text-align: center;
+	}
+	
+	.converter-row {
+		display: flex;
+		width: 40%;
+		justify-content: space-between;
+		align-items: center;
+		background: rgb(22, 121, 168);
+		border-radius: 10px;
+		padding: 50px 20px;
+	}
+	
+	.col {
+		flex-basis: 32%;
+		text-align: center;
+	}
+	
+	.col label {
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 10px;
+		color: #fff;
+	}
+	
+	.col input {
+		width: 150px;
+		height: 30px;
+		background: white;
+		border-radius: 5px;
+		text-align: center;
+	}
+
